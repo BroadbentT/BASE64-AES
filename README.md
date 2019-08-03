@@ -3,7 +3,6 @@ A simple python script file to create and read BASE64/AES encoded text strings, 
 
 python aes_encoder.py
 
-| LANGUAGE | FILENAME | COMMAND |
+| LANGUAGE | FILENAME | MD5 HASH |
 |--------  |--------- |---------|
-| python | aes_encoder.py | |
-| |MD5 Hash - a2b93639ce185ef782afc28194c3311b |
+| python | aes_encoder.py | a2b93639ce185ef782afc28194c3311b |
