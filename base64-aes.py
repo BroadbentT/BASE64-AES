@@ -2,7 +2,7 @@
 # coding:UTF-8
 
 # -------------------------------------------------------------------------------------
-#  A SIMPLE PYTHON SCRIPT FILE FOR CREATING AND READING BASE64/AES ENCRYPTED codedMessageS
+#  A SIMPLE PYTHON SCRIPT FILE FOR CREATING AND READING BASE64/AES ENCRYPTED STRINGS
 #               BY TERENCE BROADBENT BSc CYBER SECURITY (FIRST CLASS)
 # -------------------------------------------------------------------------------------
 
@@ -49,7 +49,7 @@ print "                            BY TERENCE BROADBENT BSC CYBER SECURITY (FIRS
 plainText  = "Blessent mon coeur d'une langueur monotone."
 uniqueSalt = 'Pots de sel et de poivre'
 uniqueKey  = 'Enterprise_Key'
-bytes      = 32				# Must be 16, 24 or 32 bytes in length.
+bytes      = 32                         # Must be 16, 24 or 32 bytes in length.
 while len(uniqueKey) < bytes:
    uniqueKey = uniqueKey + "="          # Add appropriate padding.
 uniqueKey = uniqueKey[:bytes]
@@ -95,6 +95,5 @@ iv = encrypted[:AES.block_size]
 cipher = AES.new(uniqueKey, AES.MODE_CFB, iv)
 decrypted = cipher.decrypt(encrypted[AES.block_size:])
 print "Decrypted   : " + decrypted.rstrip(uniqueSalt) + "\n"
-
 
 
