@@ -1,7 +1,11 @@
 # BASE64-AES
-A simple python script file to create and read BASE64/AES encoded text strings, using a salt and key.
+A python script file to create and read BASE64/AES encoded text strings, using a unique salt and a corporate Enterprise key.
 
-MD5 Hash: a2b93639ce185ef782afc28194c3311b.
+python base64-aes.py
+
+| LANGUAGE | FILENAME | MD5 Hash |
+|------    |------    | -------  |
+| python | rsa-cracker.py | MD5 Hash - 4d2af648eda9cfe24849aa9bfe823354. |
 
 ## CONSOLE DISPLAY
 ![Screenshot](picture1.png)
