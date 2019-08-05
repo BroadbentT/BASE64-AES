@@ -1,5 +1,5 @@
 # BASE64-AES ENCODER
-A python script file to create and read BASE64/AES encoded text strings, using a unique salt and a corporate Enterprise key.
+A simple python script file to create and read BASE64/AES encoded text strings, using a unique salt and a corporate Enterprise key.
 
 Usage: python base64-aes.py
 
