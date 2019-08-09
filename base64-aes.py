@@ -67,7 +67,7 @@ print "Plain Text  : " + plainText
 print "Unique Salt : " + uniqueSalt
 print "Unique Key  : " + uniqueKey
 print "Key Length  : " + str(bytes) + " bytes"
-print "Encoded Text: " + codedMessage
+print "Cipher Text : " + codedMessage
 
 # ------------------------------------------------------------------------------------- 
 # AUTHOR  : Terence Broadbent                                                    
