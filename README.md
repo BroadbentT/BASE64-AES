@@ -8,7 +8,7 @@ Usage: python base64_aes.py
 
 </br>
 
-- [x] Confidentiality mode used: CFB - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM and https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf
+- [x] Confidentiality mode used: CFB - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM
 
 __Cipher Feedback (CFB)__ is an IV-based encryption scheme, the mode is secure as a probabilistic encryption scheme, achieving indistinguishability from random bits, assuming a random IV. However, confidentiality is not achieved if the IV is predictable, nor if it is made by a nonce enciphered under the same key used by the scheme, as the standard incorrectly suggests to do. Ciphertexts are malleable. No CCA-security. Encryption inefficient from being inherently serial. Scheme depends on a parameter s, 1 ≤ s ≤ n, typically s = 1 or s = 8. Inefficient for needing one blockcipher call to process only s bits. The mode achieves an interesting  “self-synchronization” property; insertion or deletion of any number of s-bit characters into the ciphertext only temporarily disrupts correct decryption.
 
