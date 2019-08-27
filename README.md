@@ -1,13 +1,13 @@
 # BASE64/AES ENCODER
-### A simple python script file to create and read BASE64/AES encoded text strings using a unique salt and a corporate Enterprise key.
+### A simple python script file to create and read BASE64/AES encoded text strings via a corporate 'Password Based Key Derivation Function' (PBKDF2).
 
 Usage: python base64_aes.py
 
 | LANGUAGE | FILENAME      | MD5 HASH                         |
 |------    |------         | -------                          |
-| python   | base64_aes.py | b0b309b95f900518ad50c4715afb4bb7 |
+| python   | base64_aes.py | 1511ac1356ffc7753872039eb307fece |
 
-Currently has 2 modes - ECB and CFB.
+Encryption mode used: CFB
 
 ## CONSOLE DISPLAY
-![Screenshot](picture1.png)
+![Screenshot](picture1.png)	
