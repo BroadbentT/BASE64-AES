@@ -1,6 +1,5 @@
 # BASE64/AES ENCODER
-### A simple python script file to create and read BASE64/AES encoded text strings via a corporate 'Password Based Key Derivation Function' (PBKDF2).
-
+### A SIMPLE PYTHON SCRIPT FILE TO CREATE AND READ BASE64/AES ENCODED TEXT STRINGS VIA A CORPORATE 'PASSWORD BASED KEY DERIVATION FUNCTION' (PBKDF2).
 Usage: python base64_aes.py
 
 | LANGUAGE | FILENAME      | MD5 HASH                         |
