@@ -1,5 +1,5 @@
 # BASE64/AES ENCODER
-## A SIMPLE PYTHON SCRIPT FILE TO CREATE AND READ BASE64/AES ENCODED TEXT STRINGS VIA A CORPORATE 'PASSWORD BASED KEY DERIVATION FUNCTION' (PBKDF2).
+### A SIMPLE PYTHON SCRIPT FILE TO CREATE AND READ BASE64/AES ENCODED TEXT STRINGS VIA A CORPORATE 'PASSWORD BASED KEY DERIVATION FUNCTION' (PBKDF2).
 Usage: python base64_aes.py
 
 | LANGUAGE | FILENAME      | MD5 HASH                         |
@@ -52,3 +52,6 @@ Other modes available:-
 > The only allowed use of the mode is for encrypting data on a block-structured storage device. 
 > The narrow width of the underlying PRP and the poor treatment of fractional final blocks are problems. 
 > More efficient but less desirable than a (wide-block) PRP-secure blockcipher would be.
+
+see - https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf
+
