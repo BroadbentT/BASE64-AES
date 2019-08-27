@@ -5,13 +5,13 @@ Usage: python base64-aes_xxx.py
 
 | LANGUAGE | FILENAME          | MD5 HASH                         | CONFIDENTIALITY MODE |
 |------    |------             | -------                          | -----                |
-| python   | base64-aes_cfb.py | 7d46a682002ffd598c40d5b667af8361 | CFB                  |
+| python   | base64-aes_cfb.py | 8f3386fbdfc2572b2bb34dd361af30ac | CBC                  |
 | python   | base64-aes_ecb.py | 96529abfc1d84196c5103594cab8cc1a | ECB                  |
 
 - [x] For more information on 'confidentiality mode' - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM
 
 ### CIPHER FEEDBACK MODE
-__The Cipher Feedback (CFB) mode__ is a confidentiality mode that features the feedback of successive ciphertext segments into the input blocks of the forward cipher to generate output blocks that are exclusive-ORed with the plaintext to produce the ciphertext, and vice versa. The CFB mode requires an IV as the initial input block. The IV need not be secret, but it must be unpredictable.
+__The Cipher Block Chaining (CBC) mode__ is a confidentiality mode whose encryption process features the combining (“chaining”) of the plaintext blocks with the previous ciphertext blocks. The CBC mode requires an IV to combine with the first plaintext block.  The IV need not be secret, but it must be unpredictable; the generation of such IVs is discussed in Appendix C. Also, the integrity of the IV should be protected.
 
 ### ELECTRONIC COOKBOOK MODE
 __The Electronic Codebook (ECB) mode__ is a confidentiality mode that features, for a given key, the assignment of a fixed ciphertext block to each plaintext block, analogous to the assignment of code words in a codebook.
