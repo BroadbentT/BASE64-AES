@@ -10,7 +10,7 @@ Usage: python base64-aes_xxx.py
 
 - [x] For more information on 'confidentiality mode' - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM
 
-### CIPHER FEEDBACK MODE
+### CIPHER BLOCK CHAINING MODE
 __The Cipher Block Chaining (CBC) mode__ is a confidentiality mode whose encryption process features the combining (“chaining”) of the plaintext blocks with the previous ciphertext blocks. The CBC mode requires an IV to combine with the first plaintext block.  The IV need not be secret, but it must be unpredictable; the generation of such IVs is discussed in Appendix C. Also, the integrity of the IV should be protected.
 
 ### ELECTRONIC COOKBOOK MODE
