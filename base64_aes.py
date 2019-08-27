@@ -98,7 +98,7 @@ print "Encrypted   : " + encrypted
 decrypted = base64.b64decode(encrypted)		# Both
 
 #decipher = AES.new(uniqueKey, AES.MODE_ECB)	# ECB mode
-#plainText = decipher.decrypt(decrypted)		# ECB mode
+#plainText = decipher.decrypt(decrypted)	# ECB mode
 
 iv = decrypted[:AES.block_size]			# CFB mode
 cipher = AES.new(uniqueKey, AES.MODE_CFB, iv)	# CFB mode
