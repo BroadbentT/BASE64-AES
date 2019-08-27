@@ -8,7 +8,7 @@ Usage: python base64-aes_xxx.py
 | python   | base64-aes_cfb.py | 7d46a682002ffd598c40d5b667af8361 | CFB                  |
 | python   | base64-aes_ecb.py | 96529abfc1d84196c5103594cab8cc1a | ECB                  |
 
-- [x] For more information on 'confidentiallity mode' - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM
+- [x] For more information on 'confidentiality mode' - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM
 
 ### CIPHER FEEDBACK MODE
 __The Cipher Feedback (CFB) mode__ is a confidentiality mode that features the feedback of successive ciphertext segments into the input blocks of the forward cipher to generate output blocks that are exclusive-ORed with the plaintext to produce the ciphertext, and vice versa. The CFB mode requires an IV as the initial input block. The IV need not be secret, but it must be unpredictable.
