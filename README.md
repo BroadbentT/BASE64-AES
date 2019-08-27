@@ -5,7 +5,9 @@ Usage: python base64_aes.py
 
 | LANGUAGE | FILENAME      | MD5 HASH                         |
 |------    |------         | -------                          |
-| python   | base64_aes.py | 5204058f2118623722e7ebde85a7f18f |
+| python   | base64_aes.py | b0b309b95f900518ad50c4715afb4bb7 |
+
+Currently has 2 modes - ECB and CFB.
 
 ## CONSOLE DISPLAY
 ![Screenshot](picture1.png)
