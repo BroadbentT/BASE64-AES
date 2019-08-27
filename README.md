@@ -17,7 +17,7 @@ __The Cipher Feedback (CFB) mode__ is a confidentiality mode that features the f
 __The Electronic Codebook (ECB) mode__ is a confidentiality mode that features, for a given key, the assignment of a fixed ciphertext block to each plaintext block, analogous to the assignment of code words in a codebook.
 
 ### PBKDF2
-__Password-Based Key Derivation Function (PBKDF1 and PBKDF2)__ are key derivation functions with a sliding computational cost, used to reduce vulnerabilities to brute force attacks. PBKDF2 is part of RSA Laboratories' Public-Key Cryptography Standards (PKCS) series, specifically PKCS #5 v2.0, also published as Internet Engineering Task Force's RFC 2898. It supersedes PBKDF1, which could only produce derived keys up to 160 bits long. RFC 8018 (PKCS #5 v2.1), published in 2017, recommends PBKDF2 for password hashing.
+In cryptology __Password-Based Key Derivation Function (PBKDF1 and PBKDF2)__ are key derivation functions with a sliding computational cost, used to reduce vulnerabilities to brute force attacks. PBKDF2 is part of RSA Laboratories' Public-Key Cryptography Standards (PKCS) series, specifically PKCS #5 v2.0, also published as Internet Engineering Task Force's RFC 2898. It supersedes PBKDF1, which could only produce derived keys up to 160 bits long. RFC 8018 (PKCS #5 v2.1), published in 2017, recommends PBKDF2 for password hashing.
 
 ### CONSOLE DISPLAY
 ![Screenshot](picture1.png)
