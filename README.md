@@ -1,7 +1,7 @@
 # BASE64/AES ENCODER
-## PYTHON SCRIPT FILE TO ENCODE AND DECODE BASE64/AES TEXT STRINGS VIA A CORPORATE 'PASSWORD BASED KEY DERIVATION FUNCTION' (PBKDF2).
+### PYTHON SCRIPT FILE TO ENCODE AND DECODE BASE64/AES TEXT STRINGS VIA A CORPORATE 'PASSWORD BASED KEY DERIVATION FUNCTION' (PBKDF2).
 
-Usage: python base64_aes_xxx.py
+Usage: python base64-aes_xxx.py
 
 | LANGUAGE | FILENAME          | MD5 HASH                         | CONFIDENTIALITY MODE |
 |------    |------             | -------                          | -----                |
