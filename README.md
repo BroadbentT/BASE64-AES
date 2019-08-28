@@ -10,14 +10,14 @@ Usage: python base64-aes_xxx.py
 
 - [x] For more information on 'confidentiality mode' - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM
 
+### PBKDF2
+In cryptology, __Password-Based Key Derivation Function (PBKDF1 and PBKDF2)__ are key derivation functions with a sliding computational cost, used to reduce vulnerabilities to brute force attacks. PBKDF2 is part of RSA Laboratories' Public-Key Cryptography Standards (PKCS) series, specifically PKCS #5 v2.0, also published as Internet Engineering Task Force's RFC 2898. It supersedes PBKDF1, which could only produce derived keys up to 160 bits long. RFC 8018 (PKCS #5 v2.1), published in 2017, recommends PBKDF2 for password hashing.
+
 ### CIPHER BLOCK CHAINING MODE
-__The Cipher Block Chaining (CBC) mode__ is a confidentiality mode whose encryption process features the combining (“chaining”) of the plaintext blocks with the previous ciphertext blocks. The CBC mode requires an IV to combine with the first plaintext block.  The IV need not be secret, but it must be unpredictable; the generation of such IVs is discussed in Appendix C. Also, the integrity of the IV should be protected.
+__The Cipher Block Chaining (CBC) mode__ is a confidentiality mode whose encryption process features the combining (“chaining”) of the plaintext blocks with the previous ciphertext blocks. The CBC mode requires an IV to combine with the first plaintext block.  The IV need not be secret, but it must be unpredictable. Also, the integrity of the IV should be protected.
 
 ### ELECTRONIC COOKBOOK MODE
 __The Electronic Codebook (ECB) mode__ is a confidentiality mode that features, for a given key, the assignment of a fixed ciphertext block to each plaintext block, analogous to the assignment of code words in a codebook.
-
-### PBKDF2
-In cryptology, __Password-Based Key Derivation Function (PBKDF1 and PBKDF2)__ are key derivation functions with a sliding computational cost, used to reduce vulnerabilities to brute force attacks. PBKDF2 is part of RSA Laboratories' Public-Key Cryptography Standards (PKCS) series, specifically PKCS #5 v2.0, also published as Internet Engineering Task Force's RFC 2898. It supersedes PBKDF1, which could only produce derived keys up to 160 bits long. RFC 8018 (PKCS #5 v2.1), published in 2017, recommends PBKDF2 for password hashing.
 
 ### CONSOLE DISPLAY
 ![Screenshot](picture1.png)
