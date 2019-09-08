@@ -5,8 +5,8 @@ Usage: python base64-aes_xxx.py
 
 | LANGUAGE | FILENAME          | MD5 HASH                         | CONFIDENTIALITY MODE |
 |------    |------             | -------                          | -----                |
-| python   | base64-aes_cbc.py | 8f3386fbdfc2572b2bb34dd361af30ac | CBC                  |
-| python   | base64-aes_ecb.py | 96529abfc1d84196c5103594cab8cc1a | ECB                  |
+| python   | base64-aes_cbc.py | f25752e95d5e3ce64d5d627616299246 | CBC                  |
+| python   | base64-aes_ecb.py | e655173931b11bc605b04663d63f79a6 | ECB                  |
 
 - [x] For more information on 'confidentiality mode' - see https://csrc.nist.gov/Projects/Block-Cipher-Techniques/BCM
 

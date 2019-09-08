@@ -24,7 +24,7 @@ from Crypto.Protocol.KDF import PBKDF2
 # -------------------------------------------------------------------------------------
 # AUTHOR  : Terence Broadbent                                                    
 # CONTRACT: GitHub                                                               
-# Version : 2.0                                                                
+# Version : 1.0                                                                
 # Details : Display universal header.
 # Modified: N/A                                                               
 # -------------------------------------------------------------------------------------
@@ -83,7 +83,7 @@ def decrypt(encryption, companyKey):
 # AUTHOR  : Terence Broadbent                                                    
 # CONTRACT: GitHub
 # Version : 1.0                                                                
-# Details : MAIN - Display program variables, and encrypt/decrypt plainText.
+# Details : MAIN - Display program variables.
 # Modified: N/A
 # -------------------------------------------------------------------------------------
 
@@ -93,10 +93,17 @@ print "Unique Salt : Pots de sel et de poivre"
 print "Private Key : " + base64.b64encode(Key(companyKey))
 print "Cipher Mode : CBC\n"
 
+# ------------------------------------------------------------------------------------- 
+# AUTHOR  : Terence Broadbent                                                    
+# CONTRACT: GitHub
+# Version : 1.0                                                                
+# Details : MAIN - Encrypt and decrypt plainText and display the results.
+# Modified: N/A
+# -------------------------------------------------------------------------------------
+
 encrypted = encrypt(plainText, companyKey)
-print "Encrypted   : " + encrypted
- 
 decrypted = decrypt(encrypted, companyKey)
+print "Encrypted   : " + encrypted
 print "Decrypted   : " + bytes.decode(decrypted) + "\n"
 
 
