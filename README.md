@@ -1,4 +1,4 @@
-# BASE64 / AES ENCODERS
+# BASE64 / AES ENCODER
 
 ### Python scripts for encoding and decoding Base64/AES text strings using Password-Based Key Derivation Function 2 (PBKDF2).
 
